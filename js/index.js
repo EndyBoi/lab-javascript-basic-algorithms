@@ -19,13 +19,6 @@ if (hacker1.length>hacker2.length) {
 // Iteration 3: Loops
 
 // 3.1 Print all the characters of the driver's name, separated by a space and in capitals i.e. "J O H N"
-space = ``
-
-hacker1Up = hacker1.toUpperCase()
-console.log (hacker1Up)
-
-hacker1space = hacker1Up.split(space)
-console.log (hacker1space.join(` `))
 
 for (i=0; i<hacker1.length;i++) {
   space += hacker1[i].toUpperCase() + ` `
